@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  nrpe_exporter:
+    image: liferay/lfrit-hu:nrpe_exporter
+  restart: always
+  ports:
+    - 9275:9275
