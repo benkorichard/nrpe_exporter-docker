@@ -1,6 +1,6 @@
 FROM debian:stable-slim
 
-LABEL maintainer="richard.benko"
+LABEL maintainer="Richard Benko <benko.richard86@gmail.com>"
 
 ENV EXPORTER_VERSION=0.1.0
 
