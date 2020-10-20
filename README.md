@@ -4,7 +4,7 @@ The NRPE exporter exposes metrics on commands sent to a running NRPE daemon.
 
 ## Running with docker
 ```shell
-docker run -d -p 9275:9275 --name nrpe_exporter liferay/lfrit-hu:nrpe_exporter
+docker run -d -p 9275:9275 --name nrpe_exporter benkorichard/nrpe_exporter:latest
 ```
 You can also use the compose file:
 
